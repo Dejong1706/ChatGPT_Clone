@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light+Two&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply rounded-md bg-blue-400 px-4 py-2 text-white hover:bg-blue-500 disabled:bg-blue-500;
+  }
+
+  .side-menu-item {
+    @apply m-2 flex items-center gap-4 rounded-md p-2 hover:bg-gray-800;
+  }
+}
